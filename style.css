@@ -1,0 +1,22 @@
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: end;
+}
+
+header img {
+    height: 150px;
+    width: 150px;
+}
