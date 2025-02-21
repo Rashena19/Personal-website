@@ -1,21 +1,50 @@
 
 body {
-    display:grid;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    color: #eaa8d1;
+    display: grid;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
 }
+
 
 header {
-    background: #f5d9fa;
+    background: #d6c0d0;
     color: white;
-    padding: 15px;
+    padding: 12px;
     text-align: center;
+    position: relative;
+    z-index: 100;
+    display: grid;
 }
 
 
-button {
+ h1 {
+    font-size: 3rem;
+    color: rgb(247, 121, 241);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Contact Form */
+form {
+    width: 50%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
     background: #333;
     color: white;
     padding: 10px;
